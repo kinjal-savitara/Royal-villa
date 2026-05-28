@@ -7,14 +7,14 @@ export default function Home() {
   const [formData, setFormData] = useState({ name: "", email: "", phone: "" });
   const [submitted, setSubmitted] = useState(false);
   const [showImage, setShowImage] = useState(true);
-// https://tours.savitarrealty.in/virtualtour/8f78f9b3
+
    
 
    useEffect(() => {
     document.documentElement.style.height = "100%";
     document.body.style.height = "100%";
     document.body.style.margin = "0";
-
+// https://tours.savitarrealty.in/virtualtour/8f78f9b3
      
      const timer = setTimeout(() => {
       setShowImage(false); 
@@ -41,7 +41,7 @@ const handleSubmit = (e) => {
   return (
      <div style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100%", zIndex: 9999 }}>
       <iframe
-        src="https://tours.savitarrealty.in/virtualtour/8f78f9b3   test"
+        src="https://tours.savitarrealty.in/virtualtour/8f78f9b3test"
         frameBorder="0"
         scrolling="no"
         width="100%"
